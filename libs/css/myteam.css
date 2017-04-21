@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.myteam .user-finance {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  border-bottom: 1px solid #D4D4D4; }
+  .myteam .user-finance > div:nth-child(1) {
+    border-right: 1px solid darkgray;
+    text-align: center; }
+    .myteam .user-finance > div:nth-child(1) > span:nth-child(1) {
+      color: #000;
+      font-weight: bolder;
+      font-size: 1.25em; }
+    .myteam .user-finance > div:nth-child(1) > span:nth-child(2) {
+      color: #D4D4D4; }
+  .myteam .user-finance > div:nth-child(2) {
+    text-align: center; }
+    .myteam .user-finance > div:nth-child(2) > span:nth-child(1) {
+      color: red;
+      font-size: 1.25em;
+      font-weight: bolder;
+      font-family: "微软雅黑"; }
+    .myteam .user-finance > div:nth-child(2) > span:nth-child(2) {
+      color: #D4D4D4; }
+
+.myteam .content {
+  width: 98.525%;
+  height: 60px;
+  margin-top: 10px;
+  position: relative;
+  border-bottom: 1px solid #D4D4D4; }
+  .myteam .content .content_left {
+    height: 60px;
+    width: 100px;
+    float: left;
+    border-top: 1px solid 1px solid #D4D4D4; }
+    .myteam .content .content_left #img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      float: left;
+      margin-left: 10px; }
+      .myteam .content .content_left #img > img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%; }
+    .myteam .content .content_left .name {
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      width: 40px;
+      float: left; }
+  .myteam .content .content_right {
+    height: 60px;
+    width: 100px;
+    float: right;
+    line-height: 40px; }
+    .myteam .content .content_right > span {
+      float: right;
+      display: block; }
+
+.myteam .mychild {
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  right: 0; }

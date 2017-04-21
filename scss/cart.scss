@@ -1,0 +1,122 @@
+.body_3{
+    .list{
+        padding: 10px 0;
+        border-bottom:1px solid darkgray ;
+        height:110px;
+        position: relative;
+        .option{
+            width:40px;
+            height:90px;
+            font-size:1.25em ;
+            line-height:90px ;
+            text-align: center;
+            float:left;
+            i{
+                font-size:1.25em ;
+            }
+        }
+        .img{
+            width:80px;
+            height:85px;
+            float:left;
+            img{
+                display: block;
+                width:80px;
+                height:85px;
+            }
+        }
+        .content{
+           position: absolute;
+            top: 10px;
+            right: 10px;
+            left: 125px;
+            .title{
+                padding:0 5px ;
+                height:58px;
+                width:70%;
+                font-size:0.75em;
+            }
+            .bussiness{
+                width:16px;
+                height:28px;
+                float: right;
+            }
+            .price{
+                width:49px;
+                height:27px;
+                float:left;
+                color: red;
+            }
+            .calc{
+                width:auto;
+                height:25px;
+                float: right;
+                text-align: center;
+                margin-right:6%;
+                border:1px solid darkgray ;
+                border-radius:4px ;
+               >div{
+                height:24px;
+                width:24px;
+                text-align: center;
+                line-height: 25px;
+                padding: 0;
+            }
+            >div:nth-child(1){
+                 border-right: 1px solid darkgray; 
+            }
+            >div:nth-child(2){
+                 border-right: 1px solid darkgray; 
+            }
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.layout_footer3{
+    z-index: 100;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    height:48px;
+    background:#fff;
+    border-top: solid 1px #ccc;
+    padding: 0;
+    .cart{
+       >div{
+           height:48px;
+           line-height: 48px;
+           text-align: center;
+           color: #fff;
+       }
+       >div:nth-child(1){
+           color: #000;
+           padding: 0;
+           i{
+               font-size:1.625em ;
+               padding:0 4px ;
+           }
+           
+       }
+       >div:nth-child(2){
+           background: #dd3d97;
+       }
+        >div:nth-child(3){
+           background: #8E488E;
+           a{
+              color: #fff;
+           }
+       }
+        
+    }
+    
+}

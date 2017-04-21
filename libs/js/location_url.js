@@ -1,0 +1,1 @@
+function url(){$("#content3 .list").on("touchstart",".list-group-item .title",function(t){t.preventDefault();var i=$(this).parent().index()+1,n="details.html?id="+i;window.location.href=n})}

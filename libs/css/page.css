@@ -1,0 +1,171 @@
+.header {
+  height: 48px;
+  width: 100%;
+  background: #c53866;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100; }
+  .header .search-bar {
+    padding: 0 3%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+    position: relative; }
+    .header .search-bar .fa {
+      display: block;
+      width: 6.25%;
+      height: auto;
+      float: right;
+      color: #fff;
+      position: absolute;
+      top: 21.82%;
+      right: 5.12%;
+      font-size: 1.76em;
+      text-align: center;
+      padding: 0 6px;
+      vertical-align: middle;
+      text-decoration: none; }
+    .header .search-bar .home {
+      display: block;
+      width: 6.25%;
+      float: left;
+      height: auto;
+      color: #fff;
+      position: absolute;
+      top: 21.82%;
+      left: 3.12%;
+      font-size: 1.76em;
+      text-align: center;
+      padding: 0 6px;
+      vertical-align: middle;
+      text-decoration: none; }
+
+.category {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 48px;
+  height: 48px;
+  padding: 4px 0;
+  border: 1px solid #ccc;
+  background: #F1F5F6; }
+  .category ul li {
+    float: left;
+    border: none;
+    border-right: 1px solid #ccc;
+    background: #F1F5F6; }
+  .category ul li:nth-child(3) {
+    border-right: none; }
+
+.category_right {
+  display: none;
+  width: auto;
+  z-index: 200;
+  position: absolute;
+  right: 4%;
+  top: 64px;
+  opacity: 0.7;
+  background: #000;
+  border-radius: 10px; }
+  .category_right ul {
+    margin-bottom: 0px; }
+  .category_right ul > li {
+    text-align: center;
+    padding: 10px 35px;
+    background: #596065; }
+    .category_right ul > li a {
+      color: #fff; }
+  .category_right .shape {
+    border-width: 12px;
+    position: absolute;
+    left: 95px;
+    top: -20px;
+    z-index: 300;
+    border-style: solid dashed dashed;
+    border-color: transparent  transparent  #596065 transparent; }
+  .category_right em {
+    display: block;
+    border-width: 12px;
+    position: absolute;
+    left: 95px;
+    top: -20px;
+    z-index: 300;
+    border-style: solid dashed dashed;
+    border-color: transparent  transparent  #596065 transparent; }
+
+.layout_body2 {
+  overflow-y: auto;
+  position: absolute;
+  overflow-y: auto;
+  top: 97px;
+  width: 100%;
+  bottom: 48px;
+  background: #EAEAEA; }
+  .layout_body2 #pullDown .pullDownIcon, .layout_body2 #pullUp .pullUpIcon {
+    display: block;
+    float: left;
+    width: 0px;
+    height: 0px;
+    /*    background: url(img/pull-icon@2x.png) 0 0 no-repeat;  */
+    -webkit-background-size: 40px 80px;
+    background-size: 40px 80px;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 250ms; }
+  .layout_body2 #pullDown .pullDownIcon {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  .layout_body2 #pullUp .pullUpIcon {
+    -webkit-transform: rotate(-180deg) translateZ(0); }
+  .layout_body2 #pullDown.flip .pullDownIcon {
+    -webkit-transform: rotate(-180deg) translateZ(0); }
+  .layout_body2 #pullUp.flip .pullUpIcon {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  .layout_body2 #pullDown.loading .pullDownIcon, .layout_body2 #pullUp.loading .pullUpIcon {
+    background-position: 0 100%;
+    -webkit-transform: rotate(0deg) translateZ(0);
+    -webkit-transition-duration: 0ms;
+    -webkit-animation-name: loading;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear; }
+  .layout_body2 .-webkit-keyframes loading from {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  .layout_body2 .-webkit-keyframes loading .to {
+    -webkit-transform: rotate(360deg) translateZ(0); }
+  .layout_body2 .group {
+    height: auto;
+    width: 98.525%;
+    margin-top: 20px; }
+    .layout_body2 .group > li {
+      padding: 10px;
+      height: auto;
+      width: 48.625%;
+      float: left;
+      display: table-cell;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      border-top: none;
+      border-left: none; }
+      .layout_body2 .group > li a {
+        padding: 2px 0;
+        display: block; }
+      .layout_body2 .group > li a > img {
+        width: 100%; }
+      .layout_body2 .group > li .title {
+        font-size: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      .layout_body2 .group > li .splice {
+        color: red;
+        font-weight: bolder; }
+    .layout_body2 .group > li:before {
+      clear: both;
+      display: -webkit-box; }
+  .layout_body2 #add > li {
+    height: 30px;
+    width: 100%; }

@@ -1,0 +1,59 @@
+.register_body {
+  overflow-y: auto;
+  position: fixed;
+  top: 48px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url(../img/timg.jpg) repeat-x; }
+  .register_body p {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 30px;
+    color: palevioletred; }
+  .register_body .register {
+    height: 343px;
+    width: 100%;
+    padding: 10px; }
+    .register_body .register > div {
+      margin-bottom: 10px;
+      padding: 0; }
+      .register_body .register > div > input {
+        padding: 0;
+        height: 36px;
+        padding: 5px 4px;
+        outline: none; }
+    .register_body .register > div:nth-child(3) > div {
+      padding: 0;
+      height: 36px;
+      padding: 5px 4px;
+      background: blueviolet;
+      line-height: 22px;
+      text-align: center;
+      color: #fff; }
+    .register_body .register > div:nth-child(7) > span {
+      display: block;
+      padding: 0;
+      height: 36px;
+      padding: 5px 4px;
+      background: blueviolet;
+      line-height: 22px;
+      text-align: center;
+      color: #fff; }
+
+.loadshow {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #DDDDDD;
+  text-align: center;
+  opacity: 0.4;
+  display: none; }
+  .loadshow i {
+    margin-top: 80%;
+    font-size: 40px;
+    color: blue; }

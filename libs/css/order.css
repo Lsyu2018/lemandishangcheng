@@ -1,0 +1,90 @@
+.order_nav {
+  margin-top: 48px;
+  padding: 0;
+  padding: 10px 0;
+  background: #F0F0F0; }
+  .order_nav > div:nth-child(1) {
+    margin-left: 4.6875%; }
+  .order_nav > div {
+    height: 28px;
+    padding: 0;
+    text-align: center;
+    line-height: 28px;
+    padding: 0 6px;
+    border-right: 1px solid  #CFCFCF; }
+
+.body_order, #content2 {
+  position: absolute;
+  z-index: 1;
+  top: 96px;
+  height: 424px;
+  left: 0;
+  width: 100%;
+  background: #D5D5D5;
+  overflow-y: auto; }
+  .body_order #pullDown .pullDownIcon, .body_order #pullUp .pullUpIcon, #content2 #pullDown .pullDownIcon, #content2 #pullUp .pullUpIcon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    /*    background: url(img/pull-icon@2x.png) 0 0 no-repeat;  */
+    -webkit-background-size: 40px 80px;
+    background-size: 40px 80px;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 250ms; }
+  .body_order #pullDown .pullDownIcon, #content2 #pullDown .pullDownIcon {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  .body_order #pullUp .pullUpIcon, #content2 #pullUp .pullUpIcon {
+    -webkit-transform: rotate(-180deg) translateZ(0); }
+  .body_order #pullDown.flip .pullDownIcon, #content2 #pullDown.flip .pullDownIcon {
+    -webkit-transform: rotate(-180deg) translateZ(0); }
+  .body_order #pullUp.flip .pullUpIcon, #content2 #pullUp.flip .pullUpIcon {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  .body_order #pullDown.loading .pullDownIcon, .body_order #pullUp.loading .pullUpIcon, #content2 #pullDown.loading .pullDownIcon, #content2 #pullUp.loading .pullUpIcon {
+    background-position: 0 100%;
+    -webkit-transform: rotate(0deg) translateZ(0);
+    -webkit-transition-duration: 0ms;
+    -webkit-animation-name: loading;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear; }
+  .body_order .-webkit-keyframes loading from, #content2 .-webkit-keyframes loading from {
+    -webkit-transform: rotate(0deg) translateZ(0); }
+  .body_order .-webkit-keyframes loading .to, #content2 .-webkit-keyframes loading .to {
+    -webkit-transform: rotate(360deg) translateZ(0); }
+  .body_order .myorder, #content2 .myorder {
+    background: #fff;
+    padding: 0;
+    margin-bottom: 20px; }
+    .body_order .myorder > li:nth-child(1), #content2 .myorder > li:nth-child(1) {
+      padding: 0;
+      border-bottom: 1px solid #ddd; }
+      .body_order .myorder > li:nth-child(1) > span:nth-child(1), #content2 .myorder > li:nth-child(1) > span:nth-child(1) {
+        color: red; }
+      .body_order .myorder > li:nth-child(1) > span:nth-child(2), #content2 .myorder > li:nth-child(1) > span:nth-child(2) {
+        text-align: right;
+        color: red; }
+    .body_order .myorder > li:nth-child(2), #content2 .myorder > li:nth-child(2) {
+      padding: 0;
+      margin-bottom: 4px;
+      border-bottom: 1px solid #ddd; }
+      .body_order .myorder > li:nth-child(2) > div, #content2 .myorder > li:nth-child(2) > div {
+        margin-top: 4px; }
+      .body_order .myorder > li:nth-child(2) > div:nth-child(1), #content2 .myorder > li:nth-child(2) > div:nth-child(1) {
+        padding: 4px 0; }
+        .body_order .myorder > li:nth-child(2) > div:nth-child(1) > img, #content2 .myorder > li:nth-child(2) > div:nth-child(1) > img {
+          display: block;
+          height: 70px; }
+      .body_order .myorder > li:nth-child(2) > div:nth-child(2) > div:nth-child(1), #content2 .myorder > li:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+        height: 60px;
+        display: block; }
+      .body_order .myorder > li:nth-child(2) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2), #content2 .myorder > li:nth-child(2) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
+        text-align: right; }
+    .body_order .myorder > li:nth-child(3), #content2 .myorder > li:nth-child(3) {
+      text-align: right; }
+    .body_order .myorder > li:nth-child(4), #content2 .myorder > li:nth-child(4) {
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ddd; }
+      .body_order .myorder > li:nth-child(4) > span:nth-child(1), #content2 .myorder > li:nth-child(4) > span:nth-child(1) {
+        text-align: right; }
+      .body_order .myorder > li:nth-child(4) > span:nth-child(3), #content2 .myorder > li:nth-child(4) > span:nth-child(3) {
+        text-align: right; }

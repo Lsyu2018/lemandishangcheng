@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale= 1.0, minimun-scale= 1.0, user-scalable=0">
+		<title>会员中心</title>
+	    <link rel="stylesheet" href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="../libs/css/index.min.css" />
+	    <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js" ></script>
+	    <script type="text/javascript" src="../libs/js/right_nav.js" ></script>
+	    <script type="text/javascript" src="../libs/js/Members.js" ></script>
+	    <script type="text/javascript" src="../libs/js/footer.js" ></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="search-bar">
+				<a href="javascript:history.go(-1)" class="fa fa-angle-left home"></a>
+				<div>会员中心</div>
+				<a href="#" class="fa fa-list-ul "></a>
+			</div>
+		</div>
+		<div class="category_right">
+			<em></em>
+			<div class="shape"></div>
+			<ul class="list-group">
+			    <li class="list-group-item "><a href="../index.html">首页</a></li>
+			    <li class="list-group-item"><a href="../index.html">分类查询</a></li>
+			    <li class="list-group-item"><a href="shopcart.html"> 购物车</a> </li>
+			    <li class="list-group-item"><a href="Members.html">会员中心</a></li>
+           </ul>
+		</div>
+		<div class="layout_body body_4 ">
+			<div href="#" class="top row container">
+				<div class="col-xs-4"><a href="login.html"><img src="../libs/img/18.jpg"/></a></div>
+				<div class="col-xs-4 cow">
+					<div class="col-xs-12 name">12345678901</div>
+					<div class="col-xs-12">
+						<a href="login.html"><img src="../libs/img/18.jpg"></img></a>
+						<span>普通会员</span>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<a href="Perfect_information.html"><i class="fa fa-chevron-right"></i></a>
+				</div>
+			</div>
+			<div class="user cow container">
+				<div class="col-xs-4">
+					<a href="#">
+						<div>100</div>
+						<span>我的金额</span>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="#">
+						<div>50</div>
+						<span>可用金额</span>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="#">
+						<div>1000</div>
+						<span>代币</span>
+					</a>
+				</div>
+			</div>
+			
+			<div class="list-group group">
+				<a href="myteam.html" class="list-group-item">
+					<span>
+						<i class="fa fa-user"></i>
+					</span>
+					<span>一级会员</span>
+					<span>
+						<div>5</div>
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</a>
+				<a href="myteam.html" class="list-group-item">
+					<span>
+						<i class="fa fa-user-plus "></i>
+					</span>
+					<span>二级会员</span>
+					<span>
+						<div>5</div>
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</a>
+				<a href="myteam.html" class="list-group-item">
+					<span>
+						<i class="fa fa-users"></i>
+					</span>
+					<span>三级会员</span>
+					<span>
+						<div>5</div>
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+			<div class="list-group group">
+				<a href="MyOrder.html" class="list-group-item">
+					<span>
+						<i class="fa fa-file-text-o"></i>
+					</span>
+					<span>我的订单</span>
+					<span>
+					
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</a>
+				<a href="myteam.html" class="list-group-item">
+					<span>
+						<i class="fa fa-trophy "></i>
+					</span>
+					<span>升级为商家</span>
+					<span>
+						
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</a>
+				<a href="Perfect_information.html" class="list-group-item">
+					<span>
+						<i class="fa fa-edit"></i>
+					</span>
+					<span>完善资料</span>
+					<span>
+						
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>	
+		
+		<!--layout_footer-->
+		<div class="layout_footer">
+			<a ng-repeat="m in navList" href="../index.html" class="nav-btn active" style="width:20%;color: #ABABAB;">
+				<i class="fa fa-home"></i>
+				<span ng-bind="m.name" class="ng-binding">首页</span>
+			</a>
+			<a ng-repeat="m in navList" href="../index.html" class="nav-btn active" style="width:20%;color: #ABABAB;"">
+				<i class="fa fa-database"></i>
+				<span ng-bind="m.name" class="ng-binding">积分区</span>
+			</a>
+			<a ng-repeat="m in navList" href="../index.html" class="nav-btn active" style="width:20%;color: #ABABAB;"">
+				<i class="fa fa-cube"></i>
+				<span ng-bind="m.name" class="ng-binding">分类</span>
+			</a>
+			<a ng-repeat="m in navList" href="shopcart.html" class="nav-btn active" style="width:20%;color: #ABABAB;"">
+				<i class="fa fa-cart-plus"></i>
+				<span ng-bind="m.name" class="ng-binding">购物车</span>
+			</a>
+			<a ng-repeat="m in navList" href="Members.html" class="nav-btn active" style="width:20%;color: #EE0000;"">
+				<i class="fa fa-user"></i>
+				<span ng-bind="m.name" class="ng-binding">个人中心</span>
+			</a>
+		</div>
+		
+		
+	</body>
+</html>

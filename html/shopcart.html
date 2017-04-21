@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale= 1.0, minimun-scale= 1.0, user-scalable=0">
+		<title>购物车</title>
+	    <link rel="stylesheet" href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="../libs/css/index.min.css" />
+	    <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js" ></script>
+	    <!--<script type="text/javascript" src="../libs/ pluggable/jquery.lazyload.min.js" ></script>-->
+	    <script type="text/javascript" src="../libs/js/Getdata.js" ></script>
+	    <script type="text/javascript" src="../libs/page_turning/page_turning.js" ></script>
+	    <script type="text/javascript" src="../libs/js/right_nav.js" ></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="search-bar">
+				<a href="products.html" class="fa fa-angle-left home"></a>
+				<div>购物车</div>
+				<a href="#" class="fa fa-list-ul "></a>
+			</div>
+		</div>
+		<div class="category_right">
+			<em></em>
+			<div class="shape"></div>
+			<ul class="list-group">
+			    <li class="list-group-item "><a href="../index.html">首页</a></li>
+			    <li class="list-group-item"><a href="../index.html">分类查询</a></li>
+			    <li class="list-group-item"><a href="shopcart.html"> 购物车</a> </li>
+			    <li class="list-group-item"><a href="Members.html">会员中心</a></li>
+           </ul>
+		</div>
+		<div class="layout_body body_3">
+			<div class="list">
+				<div class="item-option option">
+					<i ng-if="!m.selected" class="fa fa-circle-o ng-scope"></i>
+				</div>
+				<div class="product-img img"><img  src="../libs/img/54.jpg" dk-bind="oimg"/></div>
+				<div class="item-content content">
+					<div class="title" dk-bind="title">斯文印花黑灰色短袖连衣裙</div>
+				    <div class="item-controller">
+				    	<div class="product-price price ng-binding" ng-bind="'￥ ' + m.price" dk-bind="price">120</div>
+				        <div class="item-trash bussiness" ng-click="bussiness(m, $event, 'delete')"><i class="fa fa-trash-o"></i></div>
+				        <div class="item-calc calc ">
+                            <div class="col-xs-4 disabled " ng-click="bussiness(m, $event, 'minus')"><i class="fa fa-minus"></i></div>
+                            <div class="col-xs-4 ng-binding " ng-bind="m.itemcount" dk-bind="count">1</div>
+                            <div class="col-xs-4 add" ng-click="bussiness(m, $event, 'plus')"><i class="fa fa-plus"></i></div>
+                        </div>
+				    </div>
+				</div>
+			</div>
+			
+		</div>
+		<!--layout_footer-->
+		<div class="layout_footer3">
+		    <div class="shoppingcar-toolbar cart">
+	        <div class="col-xs-3" ng-click="allselect()"><!-- ngIf: totalSeleced == datalist.length --><!-- ngIf: totalSeleced != datalist.length --><i ng-if="totalSeleced != datalist.length" class="fa fa-circle-o ng-scope"></i>
+	        	  <span>全选</span></div>
+	        <div class="col-xs-4" ng-click="payforselect(m, $event)"><span ng-bind="payfor.name" class="ng-binding">支付方式</span><i class="clip-chevron-right"></i></div>
+	        <div class="col-xs-5"><a href="confirmorder.html" ng-bind="'确认并支付(' + totalAmount + ')'" class="ng-binding">确认并支付(<span>0</span>)</a></div>
+	        </div>
+		</div>
+	</body>
+</html>

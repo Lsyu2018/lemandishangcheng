@@ -1,0 +1,180 @@
+.header > div > div > span {
+  display: block;
+  float: left;
+  height: 48px;
+  border-top: 1px solid #8E488E;
+  padding: 0 10px; }
+
+.header > div > div > span:nth-child(1) {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  margin-left: 41.875%; }
+
+.body_5 {
+  background: #DDDDDD; }
+  .body_5 .showdeatil > div:nth-child(1) {
+    height: 297px;
+    width: 98.525%;
+    background: #fff; }
+    .body_5 .showdeatil > div:nth-child(1) .swiper-container {
+      height: 297px;
+      width: 314px;
+      background: #fff; }
+      .body_5 .showdeatil > div:nth-child(1) .swiper-container > div:nth-child(1) {
+        height: 297px;
+        width: auto; }
+        .body_5 .showdeatil > div:nth-child(1) .swiper-container > div:nth-child(1) > div > a > img {
+          display: block;
+          height: 297px;
+          width: 235px;
+          margin-left: 17%; }
+  .body_5 .category1 {
+    height: 54px;
+    width: 98.525%;
+    background: #fff; }
+    .body_5 .category1 > div {
+      padding: 3px 10px; }
+    .body_5 .category1 .title {
+      font-size: 0.75em; }
+    .body_5 .category1 .price {
+      color: red; }
+  .body_5 .category2 {
+    height: 262px;
+    width: 98.525%;
+    margin-top: 10px;
+    background: #fff; }
+    .body_5 .category2 > p {
+      padding: 3px 10px;
+      color: #999; }
+      .body_5 .category2 > p > span {
+        color: #000; }
+  .body_5 .category3 {
+    width: 98.525%;
+    margin-top: 10px; }
+
+.comment {
+  display: none;
+  margin-top: 10px;
+  width: 98.525%;
+  height: 105px;
+  background: #fff; }
+  .comment .cow {
+    margin: 0;
+    padding: 0; }
+    .comment .cow > div:nth-child(1) {
+      border-bottom: 1px solid lightgray;
+      padding-top: 10px; }
+      .comment .cow > div:nth-child(1) > div:nth-child(1) {
+        padding-left: 0; }
+        .comment .cow > div:nth-child(1) > div:nth-child(1) > a > img {
+          height: 25px;
+          width: 25px;
+          float: left;
+          border-radius: 50%;
+          display: block; }
+        .comment .cow > div:nth-child(1) > div:nth-child(1) span {
+          display: block;
+          float: left;
+          padding: 4px; }
+      .comment .cow > div:nth-child(1) > div:nth-child(2) > span {
+        display: block;
+        float: right;
+        font-size: 10px;
+        color: #9D9D9D; }
+    .comment .cow > div:nth-child(2) > div {
+      padding-left: 0; }
+    .comment .cow > div:nth-child(2) > div:nth-child(1) {
+      color: red;
+      margin-top: 4px; }
+    .comment .cow > div:nth-child(2) > div:nth-child(3) {
+      color: #DDDDDD;
+      font-size: 10px; }
+
+.detail .cart > div:nth-child(1) {
+  position: relative; }
+  .detail .cart > div:nth-child(1) #cart {
+    color: firebrick; }
+  .detail .cart > div:nth-child(1) .num {
+    position: absolute;
+    padding: 0 2px;
+    height: 14px;
+    width: auto;
+    border-radius: 40%;
+    background: firebrick;
+    font-size: 0.75em;
+    left: 50.5%;
+    top: 2px;
+    color: #fff; }
+
+.buy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background: #FFE4E1;
+  z-index: 100; }
+  .buy > form {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #FFE4E1; }
+    .buy > form > div {
+      width: 120px;
+      padding: 2px 0;
+      color: #000; }
+    .buy > form > div > span {
+      display: inline-block;
+      height: 20px;
+      line-height: 20px;
+      font-size: 16px;
+      width: 100px;
+      text-align: center; }
+    .buy > form > .get {
+      padding: 10px 0;
+      display: block; }
+    .buy > form > .get > input {
+      height: 40px;
+      line-height: 30px;
+      font-size: 18px;
+      text-align: center;
+      background: dodgerblue;
+      outline: none;
+      color: #fff;
+      border-radius: 6%; }
+
+.moneyvip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: indianred;
+  opacity: 0.6;
+  z-index: 200; }
+  .moneyvip > form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 0;
+    transform: translate(-50%, -50%); }
+    .moneyvip > form > span {
+      font-size: 12px;
+      color: #fff;
+      padding: 0;
+      text-align: center; }
+    .moneyvip > form > .password {
+      margin-top: 10px;
+      padding: 4px 0;
+      outline: none;
+      opacity: 0.6;
+      font-size: 14px; }
+    .moneyvip > form > .btnbuy {
+      padding: 5px 0;
+      margin-top: 10px;
+      background: blueviolet;
+      color: #fff;
+      opacity: 0.8; }

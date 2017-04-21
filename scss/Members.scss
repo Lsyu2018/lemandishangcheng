@@ -1,0 +1,161 @@
+.body_4{
+    background:#DDDDDD;
+    .top{
+       display: block;
+       width:98.525%;
+       margin: 0;
+       padding:0;
+       height:85px;
+       position:relative;
+       right:0;
+       left:0;
+       top:0px;
+       background:url(../img/61.jpg) center;
+        >div{
+            margin-top:20px ;
+        } 
+       >div:nth-child(1){
+           display: block;
+           margin-top:20px;
+           width:54px;
+           height:54px;
+           img{
+                width:54px;
+                height:54px;
+                display: block;
+                border-radius:50%;
+           }
+          
+       }
+       >div:nth-child(2){
+           width:118px;
+           height:65px;
+           margin-left:3.125% ;
+           >div:nth-child(1){
+                width:108px;
+                color:#fff;
+                font-weight: bolder;
+           }
+           >div:nth-child(2){
+                width:118px;
+                height:28px;
+                line-height: 28px;
+                margin-top:10px ;
+                img{
+                    height:15px;
+                    width:15px;
+                    display: block;
+                    float: left;
+                    margin-right:3.125% ;
+                }
+                span{
+                     height:15px;
+                     width:auto;
+                     display: block;
+                     float: left;
+                     line-height: 15px;
+                     font-size:1em;
+                     color: #fff;
+                     font-weight: bolder;
+                }
+           }
+       }
+       >div:nth-child(3){
+           width:18px;
+           height: 65px;
+           display: block;
+           float: right;
+           a{
+               color: #fff;
+               text-align: center;
+               line-height: 50px;
+           }
+       }
+    }
+    
+    .user{
+        height:60px;
+        width:98.525%;
+        background:#fff;
+        margin-left:0 ;
+        >div{
+            margin-top:10px ;
+            padding:0 15px;
+            text-align: center;
+            line-height: auto;
+            border-right:1px solid darkgray ;
+           >a>div{
+               font-weight: bolder;
+               color: #000;
+               font-family: "微软雅黑";
+           }
+           >a>span{
+               color: darkgray;
+           }
+        }
+        >div:nth-child(3){
+             border-right:none;
+        }
+    }
+    .group{
+         width:98.525%;
+         height:169px;
+         margin: 10px 0 20px 0;
+         >a{
+             padding: 10px 15px;
+             height:56px;
+             display: block;
+             >span:nth-child(1){
+                 height:34px;
+                 width:34px;
+                 display: block;
+                 border-radius:50% ;
+                 float: left;
+                 background: orangered;
+                  text-align: center;
+                  
+                 i{
+                     font-size:26px;
+                     text-align: center;
+                     display: block;
+                     margin-top:2px;
+                     color:#fff;
+                 }
+             }
+             >span:nth-child(2){
+                     display: block;
+                     float:left;
+                     height:34px;
+                     line-height: 34px;
+                     width:auto;
+                     margin-left:10px ;
+                 }
+            >span:nth-child(3){
+                 display: block;
+                 float:right;
+                 height:34px;
+                 width:auto;
+                 >div{
+                     float:left;
+                     width:20px;
+                     height:20px;
+                     background:orchid;
+                     border-radius:50% ;
+                     text-align: center;
+                     line-height:20px;
+                     margin-top:5px ;
+                 }
+                 i{
+                     margin-top:5px ;
+                     display: block;
+                     float:right;
+                     width:20px;
+                     height:20px;
+                     text-align: center;
+                     line-height: 20px;
+                 }
+            }     
+         }
+         
+    }
+}

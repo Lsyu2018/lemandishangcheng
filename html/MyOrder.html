@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale= 1.0, minimun-scale= 1.0, user-scalable=0">
+		<title>我的订单</title>
+	    <link rel="stylesheet" href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="../libs/css/index.min.css" />
+	    <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js" ></script>
+	    <script type="text/javascript" src="../libs/js/right_nav.js" ></script>
+	    <script type="text/javascript" src="../libs/js/iscrolldata.js" ></script>
+	    <script type="text/javascript" src="../libs/pluggable/iscroll-probe.js" ></script>
+	    <script>
+	      
+	    	$(function(){
+	    		right_nav();
+	    	    new Iscroll("#content2");
+	    	})
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="search-bar">
+				<a href="javascript:history.go(-1)" class="fa fa-angle-left home"></a>
+				<div>我的订单</div>
+				<a href="#" class="fa fa-list-ul "></a>
+			</div>
+		</div>
+		<div class="category_right">
+			<em></em>
+			<div class="shape"></div>
+			<ul class="list-group">
+			    <li class="list-group-item "><a href="../index.html">首页</a></li>
+			    <li class="list-group-item"><a href="../index.html">分类查询</a></li>
+			    <li class="list-group-item"><a href="shopcart.html"> 购物车</a> </li>
+			    <li class="list-group-item"><a href="Members.html">会员中心</a></li>
+           </ul>
+		</div>
+		<div class="order_nav cow container">
+			<div class="col-xs-2">全部</div>
+			<div class="col-xs-2">待付款</div>
+			<div class="col-xs-2">待发货</div>
+			<div class="col-xs-2">待收货</div>
+			<div class="col-xs-2">待评价</div>
+		</div>
+		<div class="body_order" id="content2">
+			<div id="scroller">  
+	            <div id="pullDown" class="ub ub-pc c-gra">  
+	                <div class="pullDownIcon"></div>  
+	                <div class="pullDownLabel">下拉刷新</div>  
+	            </div>
+	            <div class="add" style="height:630px;">
+	            	<ul class="myorder cow container">
+	            	<li class="col-xs-12">
+	            		<span class="col-xs-6">店铺</span>
+	            		<span class="col-xs-6">交易成功</span>
+	            	</li>
+	            	<li class="col-xs-12">
+	            		<div class="col-xs-4">
+	            			<img src="../libs/img/57.jpg"/>
+	            		</div>
+	            		<div class="col-xs-8">
+	            			<div class="col-xs-12">斯文印花黑灰色短袖连衣裙</div>
+	            			<div class="col-xs-12">
+	            				<span class="col-xs-6">￥120</span>
+	            				<span class="col-xs-6">X2</span>
+	            			</div>
+	            		</div>
+	            	</li>
+	            	<li class="col-xs-12">共计1件商品，合计￥120</li>
+	            	<li class="col-xs-12">
+	            		<!--<span class="col-xs-1"></span>-->
+	            		<span class="col-xs-4">付款</span>
+	            		<span class="col-xs-4">删除订单</span>
+	            		<span class="col-xs-4">查看物流</span>
+	            	</li>
+	            </ul>
+	                <ul class="myorder cow container">
+	            	<li class="col-xs-12">
+	            		<span class="col-xs-6">店铺</span>
+	            		<span class="col-xs-6">交易成功</span>
+	            	</li>
+	            	<li class="col-xs-12">
+	            		<div class="col-xs-4">
+	            			<img src="../libs/img/57.jpg"/>
+	            		</div>
+	            		<div class="col-xs-8">
+	            			<div class="col-xs-12">斯文印花黑灰色短袖连衣裙</div>
+	            			<div class="col-xs-12">
+	            				<span class="col-xs-6">￥120</span>
+	            				<span class="col-xs-6">X2</span>
+	            			</div>
+	            		</div>
+	            	</li>
+	            	<li class="col-xs-12">共计1件商品，合计￥120</li>
+	            	<li class="col-xs-12">
+	            		<!--<span class="col-xs-1"></span>-->
+	            		<span class="col-xs-4">付款</span>
+	            		<span class="col-xs-4">删除订单</span>
+	            		<span class="col-xs-4">查看物流</span>
+	            	</li>
+	            </ul>
+	                <ul class="myorder cow container">
+	            	<li class="col-xs-12">
+	            		<span class="col-xs-6">店铺</span>
+	            		<span class="col-xs-6">交易成功</span>
+	            	</li>
+	            	<li class="col-xs-12">
+	            		<div class="col-xs-4">
+	            			<img src="../libs/img/57.jpg"/>
+	            		</div>
+	            		<div class="col-xs-8">
+	            			<div class="col-xs-12">斯文印花黑灰色短袖连衣裙</div>
+	            			<div class="col-xs-12">
+	            				<span class="col-xs-6">￥120</span>
+	            				<span class="col-xs-6">X2</span>
+	            			</div>
+	            		</div>
+	            	</li>
+	            	<li class="col-xs-12">共计1件商品，合计￥120</li>
+	            	<li class="col-xs-12">
+	            		<!--<span class="col-xs-1"></span>-->
+	            		<span class="col-xs-4">付款</span>
+	            		<span class="col-xs-4">删除订单</span>
+	            		<span class="col-xs-4">查看物流</span>
+	            	</li>
+	            </ul>
+	                <ul class="myorder cow container">
+	            	<li class="col-xs-12">
+	            		<span class="col-xs-6">店铺</span>
+	            		<span class="col-xs-6">交易成功</span>
+	            	</li>
+	            	<li class="col-xs-12">
+	            		<div class="col-xs-4">
+	            			<img src="../libs/img/57.jpg"/>
+	            		</div>
+	            		<div class="col-xs-8">
+	            			<div class="col-xs-12">斯文印花黑灰色短袖连衣裙</div>
+	            			<div class="col-xs-12">
+	            				<span class="col-xs-6">￥120</span>
+	            				<span class="col-xs-6">X2</span>
+	            			</div>
+	            		</div>
+	            	</li>
+	            	<li class="col-xs-12">共计1件商品，合计￥120</li>
+	            	<li class="col-xs-12">
+	            		<!--<span class="col-xs-1"></span>-->
+	            		<span class="col-xs-4">付款</span>
+	            		<span class="col-xs-4">删除订单</span>
+	            		<span class="col-xs-4">查看物流</span>
+	            	</li>
+	            </ul>
+	            </div>
+	            
+	            <div id="pullUp" class="ub ub-pc c-gra">  
+	                <div class="pullUpIcon"></div>  
+	                <div class="pullUpLabel">上拉显示更多...</div>  
+	            </div>  
+          </div> 
+		</div>
+		<!--layout_footer-->
+		<div class="layout_footer">
+			<a ng-repeat="m in navList" href="../index.html" class="nav-btn active" style="width:20%;">
+				<i class="fa fa-home"></i>
+				<span ng-bind="m.name" class="ng-binding">首页</span>
+			</a>
+			<a ng-repeat="m in navList" href="../index.html" class="nav-btn active" style="width:20%;">
+				<i class="fa fa-database"></i>
+				<span ng-bind="m.name" class="ng-binding">积分区</span>
+			</a>
+			<a ng-repeat="m in navList" href="products.html" class="nav-btn active" style="width:20%;">
+				<i class="fa fa-cube"></i>
+				<span ng-bind="m.name" class="ng-binding">分类</span>
+			</a>
+			<a ng-repeat="m in navList" href="shopcart.html" class="nav-btn active" style="width:20%;">
+				<i class="fa fa-cart-plus"></i>
+				<span ng-bind="m.name" class="ng-binding">购物车</span>
+			</a>
+			<a ng-repeat="m in navList" href="Members.html" class="nav-btn active" style="width:20%;">
+				<i class="fa fa-user"></i>
+				<span ng-bind="m.name" class="ng-binding">个人中心</span>
+			</a>
+		</div>
+		<div class="loadshow_login loadshow_order">
+			   <i class="fa fa-spinner fa-pulse"></i>
+		 </div>
+	</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale= 1.0, minimun-scale= 1.0, user-scalable=0">
+		<title>产品详情</title>
+	    <link rel="stylesheet" href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="../libs/css/index.min.css" />
+	    <link rel="stylesheet" href="../libs/css/swiper.min.css" />
+	    <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js" ></script>
+	    <script type="text/javascript" src="../libs/pluggable/swiper.jquery.min.js" ></script>
+	    <script type="text/javascript" src="../libs/js/Savedata.js" ></script>
+	    <script type="text/javascript" src="../libs/js/details.js" ></script>
+	    <script type="text/javascript" src="../libs/js/right_nav.js" ></script>
+	</head>
+	<body>
+		<div class="header details">
+			<div class="search-bar">
+				<a href="javascript:history.go(-1)" class="fa fa-angle-left home"></a>
+				<div>
+					<span>详情</span>
+					<span>评价</span>
+				</div>
+				<a href="#" class="fa fa-list-ul "></a>
+			</div>
+		</div>
+		<div class="category_right">
+			<em></em>
+			<div class="shape"></div>
+			<ul class="list-group">
+			    <li class="list-group-item "><a href="../index.html">首页</a></li>
+			    <li class="list-group-item"><a href="../index.html">分类查询</a></li>
+			    <li class="list-group-item"><a href="shopcart.html"> 购物车</a> </li>
+			    <li class="list-group-item"><a href="Members.html">会员中心</a></li>
+           </ul>
+		</div>
+		<div class="layout_body body_5 ">
+		   <div class="showdeatil">
+			<div>
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide"><a href="#"><img /></a></div>
+				        <div class="swiper-slide"><a href="#"><img src="../libs/img/55.jpg"/></a></div>
+				        <div class="swiper-slide"><a href="#"><img src="../libs/img/56.jpg"/></a></div>
+				    </div>
+				     <!-- Add Pagination -->
+	                <div class="swiper-pagination"></div>
+			   </div>
+           <!--导航等组件可以放在container之外-->
+			</div>
+			<div class="category1">
+				<div class="title">斯文印花黑灰色短袖连衣裙</div>
+				<div class="price">￥<span>120</span></div>
+			</div> 
+			<div class="category2">
+                <p><span>品牌名称：</span>LETDIOSTO</p>
+                <p><span>商品名称：</span>女款黑白色条纹上衣阔腿裤套装</p>
+                <p><span>产地：</span>中国</p>
+                <p><span>材质：</span>上衣:粘纤77%    聚酯纤维18.5%    氨纶4.5%     裤子:聚酯纤维100%   (装饰物除外)</p>
+                <p><span>洗涤说明：</span>最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）</p>
+            </div>
+			<div class="category3">
+				<a href="#">
+					<img src="../libs/img/60.jpg"/>
+				</a>
+			</div> 
+		</div>
+		<div class="comment">
+			<div class="cow container">
+				<div class="col-xs-12">
+					<div class="col-xs-6">
+						 <a><img src="../libs/img/18.jpg"/></a>
+						 <span>匿名</span>
+					</div>
+					<div class="col-xs-6">
+						<span>2016-05-16 12:00</span>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="col-xs-12">
+						<i class="fa fa-star ng-scope"></i>
+						<i class="fa fa-star ng-scope"></i>
+						<i class="fa fa-star ng-scope"></i>
+						<i class="fa fa-star ng-scope"></i>
+						<i class="fa fa-star ng-scope"></i>
+					</div>
+					<div class="col-xs-12">真心好，下次还会再来买</div>
+					<div class="col-xs-12">购买日期：<span`class="text">2016-05-10 14:00</span></div>
+				</div>
+			</div>
+		</div>
+   </div>
+    <!--购买-->
+   <div class="buy" style="display: none;">
+   	  <form class="buyui">
+   	  	<div>
+   	  		<input type="radio" name="jaume"/><span>QQ钱包</span>
+   	  	</div>
+   	  	<div>
+   	  		<input type="radio" name="jaume"/><span>微信</span>
+   	  	</div>
+   	  	<div>
+   	  		<input type="radio" name="jaume"/><span>支付宝</span>
+   	  	</div>
+   	  	<div>
+   	  		<input type="radio" name="jaume"/><span>银行支付</span>
+   	  	</div>
+   	  	<span class="get">
+   	  		<input type="button" value="支付方式确认" />
+   	  	</span>
+   	  </form>
+   	  
+   </div>
+    <!--支付-->
+    <div class="moneyvip" style="display:none;">
+    	<form class="cow container">
+    		<span class="col-xs-12">商城大优惠,下单有惊喜哦！</span>
+    		<input class="col-xs-12 password" type="password" placeholder="请输入密码"/>
+    		<input class="col-xs-12 btnbuy" type="button" value="确认支付"  />
+    	</form>
+    </div>
+		<!--layout_footer-->
+		<div class="layout_footer3 detail">
+		    <div class="shoppingcar-toolbar cart" >
+	        <div class="col-xs-3">
+	        	<a href="shopcart.html">
+	        	<div class="num list-group-item-text">00</div>
+	        	<i  class="fa fa-shopping-cart fa-2x" id="cart"></i>
+	        	</a>
+	        </div>
+	        <div class="col-xs-4 shopcart" ><span ng-bind="payfor.name" >加入购物车</span><i class="clip-chevron-right"></i></div>
+	        <div class="col-xs-5"><a href="javascript:" ng-bind="'确认并支付(' + totalAmount + ')'" class="ng-binding">立即购买</a></div>
+	        </div>
+		</div>
+	</body>
+</html>
